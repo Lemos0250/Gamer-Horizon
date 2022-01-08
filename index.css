@@ -40,7 +40,8 @@ header nav a:hover{
 
 div .jogo-principal{
     font-size: 15px;
-    background-image: linear-gradient() url('/img/Resident-Evil.jpg');
+    background-image: url(
+    /img/Resident-Evil.jpg);
     height: 400px;
     background-size: cover;
 }
