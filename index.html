@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<body lang="pt-br">
 <!-- Diz sobre a Linguagem do Site -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- Vai Conectar o Html à pasta Css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+
+
+
     <title>Gamer Horizon</title>
     <!-- Nome que ira Aparecer na Aba do Navegador -->
 </head>
@@ -25,16 +32,70 @@
             </nav>
         </div>
     </header>
-</body>
-    <header>
-    </header>
 
     <main>
         <div class="jogo-principal">
+            <!-- <img class="image" src="img/Resident-Evil.jpg" alt="Resident-Evil Image"> -->
             <div class="container">
                 <h3 class="titulo">Resident Evil Village</h3>
                 <p class="descricao">Vivencie o horror de sobrevivência como nunca na 8ª sequência parte da franquia Resident Evil - Resident Evil Village. Com gráficos detalhados, ação intensa em primeira pessoa e uma narrativa primorosa, o terror nunca foi tão realista.</p>
-            </div>
+            <button role="button" class = "botao">
+                <i class="fas fa-shopping-basket"></i>
+                Comprar 
+            </button>
+            <button class = "botao">
+                <i class="fas fa-eye"></i>
+                Ir Para o Site do Jogo
+            </button>
+        </div>
         </div>
     </main>
+
+    <div class="carrosel-jogos">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-jogos" src="img/Jogo10.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f47c8608bd.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+	<script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/index.js"></script>
+
+    <footer>
+        <i class="fab fa-playstation"></i> 
+        <i class="fab fa-xbox"></i>
+        <i class="fas fa-desktop"></i>
+    </footer>
+
+</body>
 </html>
